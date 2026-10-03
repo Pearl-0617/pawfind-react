@@ -320,6 +320,7 @@ function Contact() {
           <h2>Need help?</h2>
           <p>Have information about one of the dogs in our feed? Let us know.</p>
           <div className="contact-detail"><strong>Email</strong><span>pearlrusiana@gmail.com</span></div>
+          <div className="contact-detail"><strong>Facebook</strong><span>Merry Pearl Rusiana</span></div>
           <div className="contact-detail"><strong>Phone</strong><span>+63 950 522 6479</span></div>
           <div className="contact-detail"><strong>Community</strong><span>Cebu, Philippines</span></div>
         </aside>
