@@ -332,6 +332,14 @@ function Contact() {
           <label>Name<input required value={form.name} onChange={(e) => update("name", e.target.value)} placeholder="Your name" /></label>
           <label>Email<input required type="email" value={form.email} onChange={(e) => update("email", e.target.value)} placeholder="you@example.com" /></label>
           <label>Message<textarea required value={form.message} onChange={(e) => update("message", e.target.value)} placeholder="Tell us about the lost or found dog..." rows="6" /></label>
+          <label>
+  Dog Image
+  <input
+    type="file"
+    accept="image/*"
+  />
+  <small>Upload a clear photo of the lost or found dog.</small>
+</label>
           <button className="primary-btn full" type="submit">Send Message →</button>
         </form>
       </div>
